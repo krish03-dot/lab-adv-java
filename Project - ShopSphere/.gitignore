@@ -1,0 +1,27 @@
+# Compiled Class files
+*.class
+target/
+*.war
+*.ear
+*.jar
+
+# Maven
+.mvn/
+
+# Secrets & Environment
+.env
+db.properties
+
+# Logs
+*.log
+logs/
+
+# IDE & OS files
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+.DS_Store
+Thumbs.db

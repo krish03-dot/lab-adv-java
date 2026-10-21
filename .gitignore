@@ -1,0 +1,35 @@
+# Compiled Class files
+*.class
+
+# Archives & Binaries
+*.zip
+*.war
+*.ear
+*.jar
+!**/lib/*.jar
+
+# Build directories
+**/target/
+.mvn/
+
+# Embedded servers & tools
+**/tomcat/
+**/maven/
+
+# Backup files
+**/.git_bak/
+*.bak
+
+# Secrets & Environment
+.env
+db.properties
+
+# IDE & OS files
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+.DS_Store
+Thumbs.db
